@@ -178,23 +178,3 @@ public class Commands extends ListenerAdapter {
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//FUCK SHIT PISS FUCK SHIT PISS
