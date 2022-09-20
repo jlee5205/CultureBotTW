@@ -77,7 +77,7 @@ public class Commands extends ListenerAdapter {
         }
         //for !history
         try{
-            File funfact = new File("/Users/vincentlee/Downloads/taiwanbot.txt");
+            File funfact = new File("/Users/vincentlee/CultureBotTW/textFileDependencies/funFacts.txt");
             
             //BufferedReader br = new BufferedReader(new FileReader(funfact));
             Scanner sc = new Scanner(funfact);
@@ -110,7 +110,7 @@ public class Commands extends ListenerAdapter {
         if(args[0].equals("!help")){
             try{
             String menuStr = "";
-            File helpmenu = new File("/Users/vincentlee/helpmenu.txt");
+            File helpmenu = new File("/Users/vincentlee/CultureBotTW/textFileDependencies/helpMenu.txt");
             Scanner scan = new Scanner(helpmenu);
             while(scan.hasNextLine()){
                 menuStr+= "\n" + scan.nextLine();
